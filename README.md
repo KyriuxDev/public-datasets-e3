@@ -1,12 +1,25 @@
-# public-datasets
+# Public Datasets
 
 Coleccion de bases de datos publicas en formato CSV, junto con un migrador
 universal para cargarlas en PostgreSQL.
 
-Los archivos CSV se almacenan en Git LFS. Al clonar el repositorio se
-descargan automaticamente siempre que Git LFS este instalado.
+## Índice
 
----
+1. [Equipo 3](#equipo-3)
+2. [Requisitos](#requisitos)
+3. [Configuracion](#configuracion)
+4. [Uso](#uso)
+5. [Conjuntos de datos](#conjuntos-de-datos)
+
+## **Equipo 3**
+
+- Almaraz Vásquez Alonso David
+- Cruz Alonso Kelly Adanari
+- Delgado Molina Karla Rocío
+- Martínez Martínez Jesús Alexander
+- Martínez Guzmán Julián
+- Roque Hernández Diego Misael
+
 
 ## Requisitos
 
@@ -84,8 +97,3 @@ de insertar.
 | `uber_fares/`                   | Kaggle - Uber Fares                                                       |
 
 ---
-
-## Seguridad
-
-El archivo `.env` esta excluido por `.gitignore` y nunca se sube al repositorio.
-No incluyas credenciales directamente en el codigo.
